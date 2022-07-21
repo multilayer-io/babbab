@@ -8,11 +8,11 @@ def beta_binomial_abtest(control_observations, control_users, variant_observatio
         
     return trace
 
-def calc_ci_perc(ci_point, control_mean):
+def _calc_ci_perc(ci_point, control_mean):
     return round((float(ci_point) - control_mean) / control_mean * 100, 1)
 
 def bayesian_statement(trace, control_mean, variant_label, control_label = "Control", confidence_level = 0.9):
     ci = az.hdi(trace, hdi_prob=confidence_level)["variant"]
-    return f"There is a {confidence_level*100:.0f}% chance that the difference for {variant_label} in respect to {control_label} is between {calc_ci_perc(ci[0], control_mean)}% and {calc_ci_perc(ci[1], control_mean)}%"
+    return f"There is a {confidence_level*100:.0f}% chance that the difference for {variant_label} in respect to {control_label} is between {_calc_ci_perc(ci[0], control_mean)}% and {_calc_ci_perc(ci[1], control_mean)}%"
 
 

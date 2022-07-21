@@ -22,3 +22,4 @@ def plot_control_variant_diff(trace, title, xlimit = 60, bins = 50):
     plt.ylabel("% chance")
     plt.title(title)
     plt.legend(fontsize = 15)
+    return plt.gcf()

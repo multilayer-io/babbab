@@ -3,4 +3,4 @@
 __version__ = "0.1.1"
 
 
-from .viz import plot_control_variant_diff
+from .core import abtest_plot
