@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# raw venv stuff, sorry but I don't trust any of the 
+# new fancy venv tools all you kids use nowadays. Stay off my lawn.
+bin/
+pyvenv.cfg
+share/
+etc/
