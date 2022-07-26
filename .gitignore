@@ -135,4 +135,4 @@ bin/
 pyvenv.cfg
 share/
 etc/
-lib64/
+lib64
