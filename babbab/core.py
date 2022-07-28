@@ -6,5 +6,5 @@ def abtest_plot(control_observations, control_users, variant_observations, varia
     """
     Runs the Beta-Binomial model in the background and returns the result plot. 
     """
-    return plot_control_variant_diff(beta_binomial_abtest(control_observations, control_users, variant_observations, variant_users), title, xlimit, bins)
+    plot_control_variant_diff(beta_binomial_abtest(control_observations, control_users, variant_observations, variant_users), title, xlimit, bins)
 
