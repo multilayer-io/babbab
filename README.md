@@ -61,3 +61,4 @@ What `babbab` covers is the "last mile" of the analysis: Communicating the resul
 - Add a bit more work, and you have your own custom built AB testing dashboard/tool.
 
 Stop worrying about your peers and yourself misinterpreting stats. 
+
