@@ -54,7 +54,7 @@ AB tests (or controlled experiments) are an increasingly popular way of incremen
 
 In our experience, when companies AB tests, the biggest problems they encounter are around interpreting the results and acting appropiately on them. There are plenty of statistical libraries out there that do AB testing right (babbab actually uses [PyMC](https://www.pymc.io/welcome.html) in the background). However, sharing statistics (like p-values) with non-statisticians can lead to confusion and [misuse](https://en.wikipedia.org/w/index.php?title=Misuse_of_p-values&oldid=1064797942) of results. 
 
-What `babbab` covers is the "last mile" of the analysis: Interpreting and communicating the results for them to be actionable.
+What `babbab` tries to cover is the "last mile" of the ab test analysis: Interpreting and communicating the results for them to be actionable.
 
 
 ### In other words - Why `babbab` is awesome
