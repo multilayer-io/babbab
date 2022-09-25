@@ -2,10 +2,10 @@
 
 The two purposes of `babbab` are: 
 
-1. To be the *simplest* tool for Data Analysts/Statisticians to *analyze* AB tests.
-2. To return the *simplest* results for Stakeholders/Non-Statisticians to *understand*.
+1. To be the *simplest* tool for Data Analysts/Statisticians to **analyze** AB tests.
+2. To return the *simplest* results for Stakeholders/Non-Statisticians to **understand**.
 
-`babbab` an acronym of BAyesian Beta-Binomial AB testing (`BABBAB`), but it's spelled in lowercase (`babbab`) because it doesn't like shouting. 
+`babbab` an acronym of **BA**yesian **B**eta-**B**inomial **AB** testing (`BABBAB`), but it's spelled in lowercase (`babbab`) because it doesn't like shouting. 
 
 
 ## Install
@@ -32,7 +32,10 @@ Because `babbab` is awesome you can just run:
 ```python
 import babbab as bab
 
-plot, statement, trace = bab.quick_analysis(control_sold_subscriptions, control_users, variant_sold_subscriptions, variant_users)
+plot, statement, trace = bab.quick_analysis(control_sold_subscriptions, 
+                                            control_users, 
+                                            variant_sold_subscriptions, 
+                                            variant_users)
 ```
 
 And get everything you need.
