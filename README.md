@@ -65,9 +65,11 @@ What `babbab` tries to cover is the "last mile" of the ab test analysis: Interpr
 
 Stop worrying about your peers and yourself misinterpreting stats. 
 
-## TODO list - Project in Stealth Mode 
+## TODO list - Soft Launch
 
-This project is currently in stealth mode. Tasks to get out of stealth:
+This project is currently soft launched, which means that while you should feel free to use it and share it with friends, please let us know you are using it and please don't discuss it in social media as it's not ready and it's kind of a shy piece of software. 
+
+Tasks to get out of this phase:
 
 - Add example results (plot, statement) to the README
 - Add example with labels to README 
