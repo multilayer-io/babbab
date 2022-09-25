@@ -2,8 +2,8 @@
 
 The two purposes of `babbab` are: 
 
-- To be the *simplest* tool for Data Analysts/Statisticians to *analyze* AB tests.
-- To return the *simplest* results for Stakeholders/Non-Statisticians to *understand*.
+1. To be the *simplest* tool for Data Analysts/Statisticians to *analyze* AB tests.
+2. To return the *simplest* results for Stakeholders/Non-Statisticians to *understand*.
 
 `babbab` an acronym of BAyesian Beta-Binomial AB testing (`BABBAB`), but it's spelled in lowercase (`babbab`) because it doesn't like shouting. 
 
