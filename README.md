@@ -65,7 +65,7 @@ What `babbab` covers is the "last mile" of the analysis: Communicating the resul
 
 Stop worrying about your peers and yourself misinterpreting stats. 
 
-### TODO 
+## TODO list - Project in Stealth Mode 
 
 This project is currently in stealth mode. Tasks to get out of stealth:
 
