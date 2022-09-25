@@ -52,7 +52,7 @@ In the signature of `quick_analysis` you can configure the statistics and the ae
 
 AB tests (or controlled experiments) are an increasingly popular way of incrementally improving websites, desktop, and mobile apps. At [Multilayer](https://multilayer.io) we have analyzed probably hundreds, with a miriad of different tools and statistical methodologies.
 
-In our experience, when encountered with the typical AB test conducted in a website or mobile app, the biggest problem companies encounter is around interpreting the results. There are plenty of statistical libraries out there that do AB testing right (babbab actually uses [PyMC](https://www.pymc.io/welcome.html) in the background). However, sharing statistics (like p-values) with non-statisticians (and sometimes even with Statisticians) can lead to confusion and [misuse](https://en.wikipedia.org/w/index.php?title=Misuse_of_p-values&oldid=1064797942) of results. 
+In our experience, when companies AB tests, the biggest problems they encounter are around interpreting the results and acting appropiately on them. There are plenty of statistical libraries out there that do AB testing right (babbab actually uses [PyMC](https://www.pymc.io/welcome.html) in the background). However, sharing statistics (like p-values) with non-statisticians (and sometimes even with Statisticians) can lead to confusion and [misuse](https://en.wikipedia.org/w/index.php?title=Misuse_of_p-values&oldid=1064797942) of results. 
 
 What `babbab` covers is the "last mile" of the analysis: Communicating the results for them to be actionable.
 
