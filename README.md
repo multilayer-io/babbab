@@ -59,7 +59,7 @@ What `babbab` tries to cover is the "last mile" of the ab test analysis: Interpr
 
 ### In other words - Why `babbab` is awesome
 
-- Get 4 numbers in, get a statistically valid statement you can repeat to your manager and a plot you can understand. 
+- Get 4 numbers in, get a statistically valid statement that you can repeat to your manager verbatim, and a plot you can understand. 
 - Get 4 numbers in + some labels, and you will get the above *and* a plot you can share *and* a statement you can C&P in the company chat.
 - Add a bit more work, and you have your own custom built AB testing dashboard/tool.
 
