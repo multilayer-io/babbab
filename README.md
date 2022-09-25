@@ -38,7 +38,7 @@ plot, statement, trace = bab.quick_analysis(control_sold_subscriptions,
                                             variant_users)
 ```
 
-And get everything you need.
+And get [everything you need](https://github.com/multilayer-io/babbab/blob/main/notebooks/should_be_pytest.ipynb).
 
 1. In `plot` you will find a matplotlib figure. You can change the title and labels in the `quick_analysis` function. 
 2. In `statement`, you will get a string that is intended to be interpreted verbatim by Non-Statisticians. 
