@@ -4,4 +4,5 @@ black==21.9b0
 flake8==3.9.2
 isort==5.9.3
 pytest==6.2.5
+click==8.0.0
 
