@@ -2,10 +2,10 @@
 
 The two purposes of `babbab` are: 
 
-1. To be the *simplest* tool for Data Analysts/Statisticians to **analyze** AB tests.
+1. To be the *simplest* tool for Data Analysts/Statisticians to **analyze** A/B tests.
 2. To return the *simplest* results for Stakeholders/Non-Statisticians to **understand**.
 
-`babbab` an acronym of **BA**yesian **B**eta-**B**inomial **AB** testing (`BABBAB`), but it's spelled in lowercase (`babbab`) because it doesn't like shouting. 
+`babbab` an acronym of **BA**yesian **B**eta-**B**inomial **A**/**B** testing (`BABBAB`), but it's spelled in lowercase (`babbab`) because it doesn't like shouting. 
 
 
 ## Install
@@ -50,11 +50,11 @@ In the signature of `quick_analysis` you can configure the statistics and the ae
 
 ## Motivation
 
-AB tests (or controlled experiments) are an increasingly popular way of incrementally improving websites, desktop, and mobile apps. At [Multilayer](https://multilayer.io) we have analyzed probably hundreds, with a miriad of different tools and statistical methodologies.
+A/B tests (or controlled experiments) are an increasingly popular way of incrementally improving websites, desktop, and mobile apps. At [Multilayer](https://multilayer.io) we have analyzed probably hundreds, with a miriad of different tools and statistical methodologies.
 
-In our experience, when companies AB tests, the biggest problems they encounter are around interpreting the results and acting appropiately on them. There are plenty of statistical libraries out there that do AB testing right (babbab actually uses [PyMC](https://www.pymc.io/welcome.html) in the background). However, sharing statistics (like p-values) with non-statisticians can lead to confusion and [misuse](https://en.wikipedia.org/w/index.php?title=Misuse_of_p-values&oldid=1064797942) of results. 
+In our experience, when companies A/B tests, the biggest problems they encounter are around interpreting the results and acting appropiately on them. There are plenty of statistical libraries out there that do A/B testing right (babbab actually uses [PyMC](https://www.pymc.io/welcome.html) in the background). However, sharing statistics (like p-values) with non-statisticians can lead to confusion and [misuse](https://en.wikipedia.org/w/index.php?title=Misuse_of_p-values&oldid=1064797942) of results. 
 
-What `babbab` tries to cover is the "last mile" of the ab test analysis: Interpreting and communicating the results for them to be actionable.
+What `babbab` tries to cover is the "last mile" of the A/B test analysis: Interpreting and communicating the results for them to be actionable.
 
 
 ### In other words - Why `babbab` is awesome
