@@ -5,7 +5,7 @@ The two purposes of `babbab` are:
 1. To be the *simplest* tool for Data Analysts/Statisticians to **analyze** A/B tests.
 2. To return the *simplest* results for Stakeholders/Non-Statisticians to **understand**.
 
-`babbab` an acronym of **BA**yesian **B**eta-**B**inomial **A**/**B** testing (`BABBAB`), but it's spelled in lowercase (`babbab`) because it doesn't like shouting. 
+`babbab` an acronym of **BA**yesian **B**eta-**B**inomial **A**/**B** testing (`BaBBAB`), but it's spelled in lowercase (`babbab`) because it doesn't like shouting. 
 
 
 ## Install
