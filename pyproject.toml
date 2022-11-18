@@ -12,20 +12,19 @@ dynamic = ["version", "description"]
 # but I believe in overly strict package management for a library 
 # of this nature.
 dependencies = [
-    "pandas==1.4.3",
-    "pymc==4.1.2",
-    "flit==3.7.1"
+    "matplotlib>=3.5.2",
+    "pymc>=4.1.2",
+    "arviz>=0.12.1"
 ]
 
 [project.optional-dependencies]
 test = [
-    "pytest==6.2.5",
-    "jupyter==1.0.0",
-    "jupyterlab==3.1.14",
-    "black==21.9b0",
-    "flake8==3.9.2",
-    "isort==5.9.3",
-    "pytest==6.2.5"
+    "pytest>=6.2.5",
+    "jupyter>=1.0.0",
+    "jupyterlab>=3.1.14",
+    "black>=21.9b0",
+    "flake8>=3.9.2",
+    "isort>=5.9.3"
 ]
 
 [project.urls]
