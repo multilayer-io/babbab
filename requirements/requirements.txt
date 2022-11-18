@@ -1,3 +1,0 @@
-matplotlib>=3.5.2
-pymc>=4.1.2
-arviz>=0.12.1
