@@ -65,11 +65,9 @@ What `babbab` tries to cover is the "last mile" of the A/B test analysis: Interp
 
 Stop worrying about your peers and yourself misinterpreting stats. 
 
-## TODO list - Soft Launch
+## TODO list 
 
-This project is currently soft launched, which means that while you should feel free to use it and share it with friends, please let us know you are using it and please don't discuss it in social media as it's not ready and it's kind of a shy piece of software. 
-
-Tasks to get out of this phase:
+Still a lot to basic docs to do.
 
 - Add example results (plot, statement) to the README
 - Add example with labels to README 
