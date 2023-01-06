@@ -4,7 +4,7 @@
 Thank you for your interest in contributing to Babbab! Before you begin writing code, please read through this document. 
 First, it is important that you share your intention to contribute, based on the type of contribution.
 
-Please first search through Babbab [issues] (https://github.com/multilayer-labs/babbab/issues). If the feature is not listed, please create a new issue. 
+Please first search through Babbab [issues](https://github.com/multilayer-labs/babbab/issues). If the feature is not listed, please create a new issue. 
 If you would like to work on any existing issue, please comment and assign yourself to the issue and file a pull request.
 
 This document covers some of the technical aspects of contributing to Babbab.
@@ -51,4 +51,4 @@ There is currently no linter.
 
 ### Writing documentation
 
-Please make sure you add documentation to your functions. Please use [Google Style docstrings] (https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html).
+Please make sure you add documentation to your functions. Please use [Google Style docstrings](https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html).
