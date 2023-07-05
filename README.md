@@ -18,7 +18,9 @@ pip install babbab
 
 ## A quick example
 
-Lets assume we are testing changing the background color of our app from grey to green. Lets say we sell subscriptions to a paper magazine. We want to know if changing the background color will increase sales. To do so, we assign 50% of our users to the new app design with a green background (The Variant Group), while other 50% stay in the old grey design (the Control group). We managed to pull these 4 numbers out our tracking into Python:
+Lets say we sell subscriptions to a paper magazine and want to conduct a simple A/B test. 
+
+We want to change the background color of our app from grey to green because we want to know if changing the background color will increase sales. To do so, we assign 50% of our users to the new app design with a green background (The Variant Group), while other 50% stay in the old grey design (the Control group). We managed to pull these 4 numbers out our tracking into Python:
 
 ```python
 control_sold_subscriptions = 200 
@@ -52,7 +54,7 @@ In the signature of `quick_analysis` you can configure the statistics and the ae
 
 A/B tests (or controlled experiments) are an increasingly popular way of incrementally improving websites, desktop, and mobile apps. At [Multilayer](https://multilayer.io) we have analyzed probably hundreds, with a miriad of different tools and statistical methodologies.
 
-In our experience, when companies A/B tests, the biggest problems they encounter are around interpreting the results and acting appropiately on them. There are plenty of statistical libraries out there that do A/B testing right (babbab actually uses [PyMC](https://www.pymc.io/welcome.html) in the background). However, sharing statistics (like p-values) with non-statisticians can lead to confusion and [misuse](https://en.wikipedia.org/w/index.php?title=Misuse_of_p-values&oldid=1064797942) of results. 
+In our experience, when companies A/B tests the biggest problems they encounter are around interpreting the results and acting appropiately on them. There are plenty of statistical libraries out there that do A/B testing right (babbab actually uses [PyMC](https://www.pymc.io/welcome.html) in the background). However, sharing statistics (like p-values) with non-statisticians can lead to confusion and [misuse](https://en.wikipedia.org/w/index.php?title=Misuse_of_p-values&oldid=1064797942) of results. 
 
 What `babbab` tries to cover is the "last mile" of the A/B test analysis: Interpreting and communicating the results for them to be actionable.
 
