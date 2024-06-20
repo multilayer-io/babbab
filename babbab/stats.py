@@ -42,7 +42,7 @@ def bayesian_statement(
 ):
     ci = az.hdi(trace, hdi_prob=confidence_level)["variant"]
     return (
-        f"There is a {confidence_level*100:.0f}% chance that the difference for"
+        f"There is a {confidence_level*100:.0f}% chance that the difference for "
         f"{variant_label} with respect to {control_label} is between {_calc_ci_perc(ci[0], control_mean)}%"
         f" and {_calc_ci_perc(ci[1], control_mean)}%"
     )
