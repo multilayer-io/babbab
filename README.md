@@ -18,7 +18,7 @@ pip install babbab
 
 ## A quick example
 
-Lets say we sell subscriptions to a paper magazine and want to conduct a simple A/B test. 
+Lets say we sell subscriptions to an app and want to conduct a simple A/B test. 
 
 We want to change the background color of our app from grey to green because we want to know if changing the background color will increase sales. To do so, we assign 50% of our users to the new app design with a green background (The Variant Group), while other 50% stay in the old grey design (the Control group). We managed to pull these 4 numbers out our tracking into Python:
 
